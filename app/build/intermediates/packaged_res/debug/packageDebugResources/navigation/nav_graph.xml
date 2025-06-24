@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.dailyroutineapp.ui.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_login" />
+
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.dailyroutineapp.ui.RegisterFragment"
+        android:label="Register"
+        tools:layout="@layout/fragment_register" />
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.dailyroutineapp.ui.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/addTaskFragment"
+        android:name="com.example.dailyroutineapp.ui.AddTaskFragment"
+        android:label="Add Task"
+        tools:layout="@layout/fragment_add_task" />
+
+    <fragment
+        android:id="@+id/apiDemoFragment"
+        android:name="com.example.dailyroutineapp.ui.ApiDemoFragment"
+        android:label="API Demo"
+        tools:layout="@layout/fragment_api_demo" />
+
+    <fragment
+        android:id="@+id/editTaskFragment"
+        android:name="com.example.dailyroutineapp.ui.EditTaskFragment"
+        android:label="Edit Task"
+        tools:layout="@layout/fragment_edit_task" />
+
+</navigation> 
